@@ -1,0 +1,36 @@
+img {
+    max-width: 100%;
+}
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+}
+.two-thirds {
+    width: 66%;
+}
+
+.third {
+    width: 33%;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.bigImage {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+    height: 30vh;
+
+}
