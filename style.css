@@ -7,6 +7,14 @@ table {
     border-color: #000;
     border-width: 3px;
 }
+.row {
+    display: flex;
+}
+.column {
+    flex: 49%;
+    padding: 5px;
+}
+   
 
 summary {
     font-size: 25px;
